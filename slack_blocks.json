@@ -1,0 +1,75 @@
+[
+  {
+    "type": "header",
+    "text": {
+      "type": "plain_text",
+      "text": "📊 乳腺癌医学资料 — 爬取报告",
+      "emoji": true
+    }
+  },
+  {
+    "type": "section",
+    "fields": [
+      {
+        "type": "mrkdwn",
+        "text": "_*总文章数*_\n48 篇"
+      },
+      {
+        "type": "mrkdwn",
+        "text": "_*近7天新增*_\n48 篇"
+      }
+    ]
+  },
+  {
+    "type": "divider"
+  },
+  {
+    "type": "section",
+    "text": {
+      "type": "mrkdwn",
+      "text": "*📍 各站数据分布*"
+    }
+  },
+  {
+    "type": "section",
+    "fields": [
+      {
+        "type": "mrkdwn",
+        "text": "*National Cancer Institute*\n42 篇"
+      },
+      {
+        "type": "mrkdwn",
+        "text": "*WebMD*\n6 篇"
+      }
+    ]
+  },
+  {
+    "type": "divider"
+  },
+  {
+    "type": "section",
+    "text": {
+      "type": "mrkdwn",
+      "text": "*National Cancer Institute*\n• <https://www.cancer.gov/types/breast/breast-cancer-during-pregnancy|Breast Cancer During Pregnancy> `18min`\n• <https://www.cancer.gov/types/breast/breast-cancer-types|Types of Breast Cancer> `7min`"
+    }
+  },
+  {
+    "type": "section",
+    "text": {
+      "type": "mrkdwn",
+      "text": "*WebMD*\n• <https://www.webmd.com/breast-cancer/understanding-breast-cancer-basics|Breast Cancer: Symptoms, Causes, Treatment> `47min`\n• <https://www.webmd.com/breast-cancer/guide-chapter-breast-cancer-overview|WebMD Breast Cancer - Overview> `1min`"
+    }
+  },
+  {
+    "type": "divider"
+  },
+  {
+    "type": "context",
+    "elements": [
+      {
+        "type": "mrkdwn",
+        "text": "🕐 2026-03-23 10:05:27 | NCI · WebMD · Mayo · Breastcancer.org · ACS"
+      }
+    ]
+  }
+]
