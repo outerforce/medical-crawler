@@ -1,3 +1,4 @@
+from typing import List
 """
 医学资料爬虫 — 主入口
 用法:
@@ -37,7 +38,7 @@ SITE_NAMES = {
 }
 
 
-def crawl_all(db: MedicalDB, sites: list[str] = None):
+def crawl_all(db: MedicalDB, sites: List[str] = None):
     """爬取所有/指定站点"""
     sites = sites or list(CRAWLERS.keys())
     total_new = 0

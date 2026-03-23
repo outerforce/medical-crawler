@@ -6,6 +6,7 @@ import hashlib
 import time
 import re
 import requests
+from typing import Optional
 from bs4 import BeautifulSoup
 
 
@@ -43,7 +44,7 @@ class MayoCrawler:
         raw = f"{SITE}_{url}_{title}"
         return hashlib.md5(raw.encode("utf-8")).hexdigest()[:20]
 
-    def _fetch(self, path: str) -> str | None:
+    def _fetch(self, path: str) -> Optional[str]:
         url = BASE_URL + path
         try:
             resp = self.session.get(url, timeout=self.TIMEOUT)
